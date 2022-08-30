@@ -1,6 +1,139 @@
+/* global reset */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+/* global setup */
+html {
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: rgb(247, 248, 249);
+}
+
+h1.text-logo {
+    display: inline-block;
+    color: rgb(6, 25, 49);
+    font-size: 36px;
+}
+
+h2 {
+    font-size: 20px;
+    color: rgb(6, 25, 49);
+}
+
+p {
+    color: rgb(6, 25, 49);
+    font-size: 14px;
+}
+
+button {
+    background-color: rgb(69, 171, 233);
+    border-radius: 4px;
+    border: 0;
+    padding: 6px 10px;
+    font-size: 12px;
+    color: white;
+    margin-right: 5px;
+}
+
+.button-empty {
+    background-color: transparent;
+    border: 1px solid rgb(188, 188, 188);
+    color: rgb(188, 188, 188);
+}
+
+/* header - container setting */
+header {
+    background-color: white;
+    padding: 10px 15px;
+}
+
+.container {
+    background-color: white;
+    width: 75%;
+    margin: 30px auto;
+    padding-bottom: 25px;
+}
+
+/* header section */
+#control {
+    border-bottom: 2px solid rgb(247, 248, 249);
+    padding-bottom: 5px;
+}
+
+/* all section setting */
+.section-1 {
+    padding: 15px 40px 0 40px;
+    height:100%;
+    display: flex;
+    justify-content: left;
+}
+
+.section-2 {
+    padding: 5px 40px;
+    height:100%;
+    display: flex;
+    justify-content: left;
+}
+
+.title-section {
+    display: inline-block;
+}
+
+/* icon setting */
+.arrow {
+    font-size: 28px !important;
+    margin-left: -5px;
+}
+
+.check {
+    color: rgb(20, 206, 95);
+    font-size: 18px !important;
+    margin-right: 5px;
+}
+
+.cancel {
+    color: rgb(220, 11, 11);
+    font-size: 18px !important;
+    margin-right: 5px;
+}
+
+/* all tag setting */
+.tag {
+    padding: 4px 8px;
+    border-radius: 8px;
+    font-size: 10px;
+    color: white;
+    margin-left: 10px;
+    margin-top: -3px;
+}
+
+.blue {
+    background-color: rgb(69, 171, 233);
+}
+
+.violet {
+    background-color: rgb(157, 113, 226);
+}
+
+.green {
+    background-color: rgb(101, 192, 169);
+}
+
+.orange {
+    background-color: rgb(242, 158, 51);
+}
+
+.fuxsia {
+    background-color: rgb(215, 99, 161);
+}
+
+.lime {
+    background-color: rgb(178, 201, 37);
+}
